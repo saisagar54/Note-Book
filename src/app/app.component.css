@@ -1,0 +1,11 @@
+.mat-toolbar{
+  background-color:rgb(4, 190, 236);
+}
+.mat-card{
+  margin-top: 1rem;
+  width: 50%;
+  margin: auto;
+}
+span {
+  margin: auto;
+}

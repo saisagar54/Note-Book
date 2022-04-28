@@ -1,0 +1,10 @@
+<mat-expansion-panel *ngFor="let note of Notes" (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <h4>Title:-</h4> {{note.title}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <h4>Subject:-</h4><P>{{note.subject}}</P>
+    <h4>Content:-</h4> <p>{{note.content}}</p>
+  </mat-expansion-panel>
